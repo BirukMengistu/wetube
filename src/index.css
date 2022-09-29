@@ -1,0 +1,35 @@
+body {
+  /* background: var(--background); */
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  font-family: Raleway, Open-Sans, Roboto, Helvetica, Sans-Serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --background: #9d9898;
+  --background-medium: #b5b0b0;
+  --background-light: #f5f0f0;
+  --text-primary: #0f0e0e;
+  --text-secondary: rgb(70, 64, 64);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* .dot {
+  color: red;
+} */
+
+::-webkit-scrollbar {
+  display: none;
+}
+svg:hover path {
+  fill: rgb(246, 234, 171);
+  transition: all ease 0.3s;
+}
+
